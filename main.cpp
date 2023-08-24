@@ -1,9 +1,9 @@
-#include <iostream> // Basic header file
-#include <vector>   // To use vector
-#include <conio.h>  // To use getch()
-#include <unistd.h> // To use sleep function
-#include <iomanip>  // To use setprecision()
-#include <ctype.h>  // To use isdigit(), isaplha()
+#include <iostream>  // Basic header file
+#include <vector>    // To use vector
+#include <conio.h>   // To use getch()
+#include <windows.h> // To use Sleep function
+#include <iomanip>   // To use setprecision()
+#include <ctype.h>   // To use isdigit(), isaplha()
 using namespace std;
 
 // Global Variables
@@ -540,27 +540,27 @@ public:
 
         double billAmount = calculateBill(days, roomCharge) + foodBill;
         cout << "\n-> Calculating Your Bill Amount";
-        sleep(1);
+        Sleep(1);
         cout << "..";
-        sleep(1);
+        Sleep(1);
         cout << "..";
-        sleep(1);
+        Sleep(1);
         cout << ".." << endl;
-        sleep(2);
+        Sleep(2);
 
         double tip = calculateTip(billAmount, tipPer);
         cout << "\n-> Calculating Your Tip Amount";
-        sleep(1);
+        Sleep(1);
         cout << "..";
-        sleep(1);
+        Sleep(1);
         cout << "..";
-        sleep(1);
+        Sleep(1);
         cout << ".." << endl;
-        sleep(2);
+        Sleep(2);
 
         cout << "\n-> Thanks for your patience and understanding" << endl;
         cout << "\n-> Here's Your Bill -> " << endl;
-        sleep(2);
+        Sleep(2);
         clearBuffer();
         generateBill(days, roomCharge, tip, RoomName(roomNo), foodBill, Is_Room_Service);
         cout << endl
