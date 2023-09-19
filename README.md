@@ -56,7 +56,7 @@ Please note that this project may not work properly on Mac or Linux systems due 
 
 ## Contributing
 
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. We welcome any enhancements, bug fixes, or additional features that could make this project even better.
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. I welcome any enhancements, bug fixes, or additional features that could make this project even better.
 
 ## License
 
@@ -64,4 +64,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Thank you for showing interest in the Hotel Management Project! We hope you find it informative and helpful. If you have any questions or suggestions, please feel free to open an issue or contact us. Enjoy exploring the world of object-oriented hotel management and restaurant services!
+Thank you for showing interest in the Hotel Management Project! I hope you find it informative and helpful. If you have any questions or suggestions, please feel free to open an issue or contact me. Enjoy exploring the world of object-oriented hotel management and restaurant services!
